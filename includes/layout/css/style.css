@@ -1,0 +1,121 @@
+body {
+    background-color: #e6e6e6dd !important;
+}
+header .login-select {
+    display: inline-block;
+
+}
+header .login-select span {
+    display: none
+}
+header .header-links a {
+    color: #252525;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: unset;
+
+}
+.container .top-content {
+    margin-top: 50px;
+}
+.container .top-content .form-group form {
+    margin: 0 auto;
+    width: 34%;
+    position: relative;
+}
+.container .top-content .form-control {
+}
+.container .top-content .form-group i {
+    right: 12px;
+    top: 11px;
+    position: absolute;
+    color: #808080;
+}
+
+/* 
+    LOGIN
+*/
+.login-form {
+    width: 313px;
+    margin: 150px auto;
+}
+.login-form input {
+    margin-bottom: 5px
+}
+.login-form label {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+/* 
+    FOOTER
+*/
+footer {
+    text-align: center;
+    color: #252525
+}
+/* 
+    CONTACT US
+*/
+.contact-us {
+    padding-top: 50px;
+}
+
+.contact-us .contactSVG {
+    width: 85%;
+
+}
+
+.contact-us .contact-info {
+    color: #252525;
+}
+
+.contact-us .contact-info .titley {
+    font-size: 90px;
+    font-weight: bold;
+    font-family: Noto;
+}
+
+.contact-us .contact-form b {
+    color: #252525;
+}
+
+.contact-us .contact-info .contact-methods {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-us .contact-info .contact-social {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+.contact-us .contact-info .contact-social i {
+    margin-right: 10px;
+    font-size: 34px;
+}
+
+.contact-us .contact-info button {
+    border: 0;
+    margin-top: 5px;
+    background: linear-gradient(90deg, #4ace1d 0%, #13c0c1 100%);
+    font-size: 18px;
+    font-family: Noto;
+    border-radius: 6px;
+    box-shadow: 0 0 5px #86e8cc,
+        inset 0 0 5px #90e0a0;
+}
+@media only screen and (max-width: 540px) {
+    .contact-us .contact-info .titley {
+        font-size: 45px;
+    }
+
+    .contact-form .form-group {
+        width: 100%;
+    }
+
+    .contact-us .contactSVG {
+        margin-left: 6%;
+    }
+}
